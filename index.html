@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+ <div class = "container">
+     <div class="quiz-container">
+          <h1></h1>
+         <p id="question">sod อยู่ชั้ยไหน?</p>
+         <button class="button" onclick="checkAnswer('a')">A) 13</button>
+         <button class="button" onclick="checkAnswer('b')">B) 14</button>
+         <button class="button" onclick="checkAnswer('c')">C) 15</button>
+         <button class="button" onclick="checkAnswer('d')">D) 16</button>
+         <p id="result"></p>
+         <script src="app.js"charset = "UTF-8"></script>
+     </div>
+<br>
+     <div class="quiz-container">
+          <h1></h1>
+         <p id="question2">SOD ย่อมาจากอะไร ?</p>
+         <button class="button" onclick="checkAnswer2('a')">A) store operation devolopment</button>
+         <button class="button" onclick="checkAnswer2('b')">B) system online department</button>
+         <button class="button" onclick="checkAnswer2('c')">C) store online department</button>
+         <button class="button" onclick="checkAnswer2('d')">D) ไม่มีข้อถูก</button>
+         <p id="result2"></p>
+     </div>
+    <p id="score">คะแนน: 0</p>
+</div>    
+
+  <script src="app.js"charset = "UTF-8"></script>
+    
+
+</body>
+</html>
